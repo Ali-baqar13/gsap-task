@@ -9,6 +9,7 @@
   --color-primary-light: #E1E6F9;
   --color-primary-dark: #173566;
   --color-success: #13B149;
+  --color-progress: #E5E7EB;
   --color-link: #8ADABB;
   --color-accent: #432AB1;
   --color-surface: #F6F8FF;
@@ -82,6 +83,7 @@
   --color-text-muted: var(--color-text-muted);
   --color-bg-muted: var(--color-bg-muted);
   --color-overlay: var(--color-overlay);
+  --color-progress: var(--color-progress);
 
   /* Deep tones */
   --color-black-rich: var(--color-black-rich);
@@ -115,7 +117,7 @@
   --text-32: var(--text-32);
   --text-50: var(--text-50);
   --text-70: var(--text-70);
-  --text-48:var(--text-48);
+  --text-48: var(--text-48);
 
   --leading-15: var(--leading-15);
   --leading-12: var(--leading-12);
@@ -126,7 +128,7 @@
   --leading-46: var(--leading-46);
   --leading-64: var(--leading-64);
   --leading-70: var(--leading-70);
-  --leading-55:var(--leading-55);
+  --leading-55: var(--leading-55);
 
   /* Typography combination classes */
   --text-9-15: var(--fs-9-lh-15);
@@ -139,7 +141,7 @@
   --text-16-28: var(--fs-16-lh-28);
   --text-14-24: var(--fs-14-lh-24);
   --text-12-12: var(--fs-12-lh-12);
-  --text-48-55:var(--fs-48-lh-55);
+  --text-48-55: var(--fs-48-lh-55);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -280,7 +282,8 @@
     font-size: var(--text-12);
     line-height: var(--leading-12);
   }
-  .text-48-55{
+
+  .text-48-55 {
     font-size: var(--text-48);
     line-height: var(--leading-55)
   }
