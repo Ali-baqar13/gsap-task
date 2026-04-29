@@ -9,7 +9,10 @@
   --color-primary-light: #E1E6F9;
   --color-primary-dark: #173566;
   --color-success: #13B149;
+  /* task colors */
   --color-progress: #E5E7EB;
+  --color-progLinebar: #2B2B2B;
+  /* task colors end */
   --color-link: #8ADABB;
   --color-accent: #432AB1;
   --color-surface: #F6F8FF;
@@ -83,7 +86,10 @@
   --color-text-muted: var(--color-text-muted);
   --color-bg-muted: var(--color-bg-muted);
   --color-overlay: var(--color-overlay);
+  /* task color */
   --color-progress: var(--color-progress);
+  --color-progressBar: var(--color-progLinebar);
+  /* task color end */
 
   /* Deep tones */
   --color-black-rich: var(--color-black-rich);
