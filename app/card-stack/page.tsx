@@ -41,6 +41,7 @@ const page = () => {
           trigger: ".contain",
           start: "top 20%",
           end: "bottom 80%",
+          endTrigger: ".container",
           scrub: true,
           pin: true,
           markers: true,
@@ -51,17 +52,20 @@ const page = () => {
       // 1️⃣ bar animation
       tl.to(".bar", {
         scaleY: 1,
-        backgroundColor: "#E5E7EB",
+        opacity: 1,
+        backgroundColor: "#13B149",
         transformOrigin: "top",
         ease: "none",
-        scrollTrigger: {
-          trigger: ".contain",
-          start: "top 20%",
-          end: "bottom 80%",
-          scrub: true,
-          markers: true,
-          pinSpacing: false,
-        },
+        // scrollTrigger: {
+        //   trigger: ".contain",
+        //   endTrigger: ".container",
+
+        //   start: "top 30%",
+        //   end: "bottom 80%",
+        //   scrub: 0.1,
+        //   markers: true,
+        //   pinSpacing: false,
+        // },
       });
     
 
